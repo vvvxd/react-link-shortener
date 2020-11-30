@@ -1,7 +1,7 @@
 {
-  "name": "react-link-shortener",
+  "name": "mern",
   "version": "1.0.0",
-  "description": "react",
+  "description": "Mern",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
@@ -9,29 +9,24 @@
     "client": "npm run start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\" "
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vvvxd/react-link-shortener.git"
-  },
   "keywords": [
+    "mern",
     "react"
   ],
-  "author": "Vlasov Valentin <itskuits@yandex.ru>",
+  "author": "Valentin",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/vvvxd/react-link-shortener/issues"
-  },
-  "homepage": "https://github.com/vvvxd/react-link-shortener#readme",
   "dependencies": {
-    "bcrypt": "^5.0.0",
-    "config": "^3.3.3",
+    "bcryptjs": "^2.4.3",
+    "config": "^3.2.4",
     "express": "^4.17.1",
-    "express-validator": "^6.7.0",
+    "express-validator": "^6.3.0",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.10.17"
+    "mongoose": "^5.8.1",
+    "shortid": "^2.2.15"
   },
   "devDependencies": {
-    "concurrently": "^5.3.0",
-    "nodemon": "^2.0.6"
+    "concurrently": "^5.0.2",
+    "cross-env": "^6.0.3",
+    "nodemon": "^2.0.2"
   }
 }
